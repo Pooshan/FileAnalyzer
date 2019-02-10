@@ -1,5 +1,5 @@
 
-## To run this file:
+## To run file analyzer:
 
 Go to this Python package, then run this command from directory where file-analyzer.py is exist.
 
