@@ -30,7 +30,8 @@ def find_n_most_frequest_word(filename, top_word_limit):
             text_string = file.read().lower()
             logger.debug("Accessing and reading entire file")
 
-        # to make it more meaningful, avoiding worlds which is less than 3 or greater than 20. So it will ignore i, of, etc...
+        # to make it more meaningful, avoiding worlds which is less than 3 or greater than 20.
+        # So it will ignore i, of, too big false words, ok, etc...
         # Since we want to walk through multiple words in the document, we can use the findall function
         match_pattern = re.findall(r'\b[a-z]{3,15}\b', text_string)
 
