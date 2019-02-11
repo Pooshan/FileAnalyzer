@@ -24,5 +24,6 @@ Go to FileAnalyzer directory and then run this command on terminal:
 
 -----------------------------------------------------
 
+- Output result screen shot of both main file and testFile 
 
 ![Result output screenshot](https://github.com/Pooshan/FileAnalyzer/blob/master/result_screenshots/result_screenshot.png)
