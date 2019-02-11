@@ -1,0 +1,36 @@
+2019-02-10 16:24:45 DEBUG Accessing and reading entire file
+2019-02-10 16:24:47 DEBUG Each word separation in file completed
+2019-02-10 16:25:01 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:25:01 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:25:35 DEBUG Accessing and reading entire file
+2019-02-10 16:25:35 DEBUG Each word separation in file completed
+2019-02-10 16:25:35 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:25:35 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:26:07 DEBUG Accessing and reading entire file
+2019-02-10 16:26:07 DEBUG Each word separation in file completed
+2019-02-10 16:26:07 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:26:07 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:26:18 DEBUG Accessing and reading entire file
+2019-02-10 16:26:18 DEBUG Each word separation in file completed
+2019-02-10 16:26:18 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:26:18 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:28:04 DEBUG Accessing and reading entire file
+2019-02-10 16:28:04 DEBUG Each word separation in file completed
+2019-02-10 16:28:04 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:28:04 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:28:59 DEBUG Accessing and reading entire file
+2019-02-10 16:28:59 DEBUG Each word separation in file completed
+2019-02-10 16:28:59 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:28:59 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:37:43 DEBUG Accessing and reading entire file
+2019-02-10 16:37:43 DEBUG Each word separation in file completed
+2019-02-10 16:37:43 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:37:43 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:49:19 DEBUG Accessing and reading entire file
+2019-02-10 16:49:19 DEBUG Each word separation in file completed
+2019-02-10 16:49:19 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:49:19 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 16:49:19 DEBUG Accessing and reading entire file
+2019-02-10 16:49:19 DEBUG Each word separation in file completed
+2019-02-10 16:49:19 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 16:49:19 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested

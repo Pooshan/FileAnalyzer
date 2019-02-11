@@ -1,23 +1,19 @@
 import re
 import sys
 import argparse
-from logger import get_logger
+import os
 
-logger = get_logger()
-
-parser = argparse.ArgumentParser()
-parser.add_argument('--filename', help='Enter file name with extension. '
-                    'For test sample file name is: sample-input-file.txt',
-                    type=str, required=True)
-parser.add_argument('--topword', help='Number of top most frequent words in files', type=str, required=True)
-args = parser.parse_args()
-
-filename = args.filename
-top_word_limit = int(args.topword)
-logger.info("Provided arguments accepted")
+dir_path=  os.path.dirname(os.path.realpath(__file__)) + "/.."
+if dir_path not in sys.path:
+    sys.path.insert(0,dir_path)
 
 
-def find_n_most_frequest_word(filename, top_word_limit):
+import src_files.logger as log
+
+logger = log.get_logger()
+
+
+def find_n_most_frequent_word(filename, top_word_limit):
     """
     :param filename: Exact full filename with extension
     :param top_word_limit: Number of top most frequent words in files
@@ -45,12 +41,12 @@ def find_n_most_frequest_word(filename, top_word_limit):
 
         logger.debug("Dictionary is ready with word and occurrence")
 
-        sorted_dict = sorted(
+        sorted_dict =  sorted(
             frequency.items(), key=lambda x: x[1], reverse=True)
 
         logger.debug("Dictionary is sorted and ready to yield number of top most frequent words requested")
 
-        return sorted_dict[:top_word_limit]
+        return { k:v for k,v in sorted_dict[:top_word_limit]}
 
     except FileNotFoundError as fnf_error:
         print(fnf_error)
@@ -62,6 +58,18 @@ def find_n_most_frequest_word(filename, top_word_limit):
 
 
 if __name__ == '__main__':
-    logger.critical(find_n_most_frequest_word(filename, top_word_limit))
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--filename', help='Enter file name with extension. '
+                        'For test sample file name is: sample-input-file.txt',
+                        type=str, required=True)
+    parser.add_argument('--topword', help='Number of top most frequent words in files', type=str, required=True)
+    args = parser.parse_args()
+
+    filename = args.filename
+    top_word_limit = int(args.topword)
+
+    logger.info("Provided arguments accepted")
+
+    logger.critical(find_n_most_frequent_word(filename, top_word_limit))
 
 
