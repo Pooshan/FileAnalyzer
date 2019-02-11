@@ -14,15 +14,15 @@
     <SUITE FILE_PATH="coverage/File_Analyzer$file_analyzer_core.coverage" NAME="file-analyzer-core Coverage Results" MODIFIED="1549846319228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FileAnalyzer/src_files" />
     <SUITE FILE_PATH="coverage/file_analyzer$Unittests_for_TestFileAnalyzer_TestFileAnalyzer_test_positive_case.coverage" NAME="Unittests for TestFileAnalyzer.TestFileAnalyzer.test_positive_case Coverage Results" MODIFIED="1549848519245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FileAnalyzer/test" />
     <SUITE FILE_PATH="coverage/file_analyzer$Unittests_for_test_file_analyzer_test_file_analyzer_test_positive_test.coverage" NAME="Unittests for test_file_analyzer.test_file_analyzer.test_positive_test Coverage Results" MODIFIED="1549844926469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FileAnalyzer/test" />
-    <SUITE FILE_PATH="coverage/file_analyzer$Unittests_for_TestFileAnalyzer_TestFileAnalyzer.coverage" NAME="Unittests for TestFileAnalyzer.TestFileAnalyzer Coverage Results" MODIFIED="1549848526009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FileAnalyzer/test" />
+    <SUITE FILE_PATH="coverage/file_analyzer$Unittests_for_TestFileAnalyzer_TestFileAnalyzer.coverage" NAME="Unittests for test.testFileAnalyzer.TestFileAnalyzer Coverage Results" MODIFIED="1549858503592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../FileAnalyzer/test" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/fileAnalyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="187">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -66,14 +66,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="299">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/sample-input-file.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -93,15 +102,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../FileAnalyzer/setup.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="600" selection-start-line="600" selection-end-line="600" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/../FileAnalyzer/src_files/__init__.py" />
         <option value="$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py" />
         <option value="$PROJECT_DIR$/../FileAnalyzer/src_files/fileAnalyzer.py" />
+        <option value="$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py" />
       </list>
     </option>
   </component>
@@ -216,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestFileAnalyzer.TestFileAnalyzer">
+  <component name="RunManager" selected="Python tests.Unittests for test.testFileAnalyzer.TestFileAnalyzer">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="FileAnalyzer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,36 +346,6 @@
       <option name="studyTest" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestFileAnalyzer.TestFileAnalyzer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="FileAnalyzer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FileAnalyzer/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestFileAnalyzer.TestFileAnalyzer&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestFileAnalyzer.TestFileAnalyzer.test_positive_case" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="FileAnalyzer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FileAnalyzer/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestFileAnalyzer.TestFileAnalyzer.test_positive_case&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test.TestFileAnalyzer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="FileAnalyzer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,6 +359,36 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.TestFileAnalyzer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.testFileAnalyzer.TestFileAnalyzer" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FileAnalyzer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FileAnalyzer/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.testFileAnalyzer.TestFileAnalyzer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.testFileAnalyzer.TestFileAnalyzer.test_positive_case" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FileAnalyzer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../FileAnalyzer/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.testFileAnalyzer.TestFileAnalyzer.test_positive_case&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -474,13 +475,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.file-analyzer-core" />
-      <item itemvalue="Python tests.Unittests for TestFileAnalyzer.TestFileAnalyzer.test_positive_case" />
-      <item itemvalue="Python tests.Unittests for TestFileAnalyzer.TestFileAnalyzer" />
+      <item itemvalue="Python tests.Unittests for test.testFileAnalyzer.TestFileAnalyzer.test_positive_case" />
+      <item itemvalue="Python tests.Unittests for test.testFileAnalyzer.TestFileAnalyzer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for TestFileAnalyzer.TestFileAnalyzer" />
-        <item itemvalue="Python tests.Unittests for TestFileAnalyzer.TestFileAnalyzer.test_positive_case" />
+        <item itemvalue="Python tests.Unittests for test.testFileAnalyzer.TestFileAnalyzer" />
+        <item itemvalue="Python tests.Unittests for test.testFileAnalyzer.TestFileAnalyzer.test_positive_case" />
         <item itemvalue="Python.file-analyzer-core" />
         <item itemvalue="Python tests.Unittests for test.TestFileAnalyzer" />
       </list>
@@ -496,14 +497,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549757655829</updated>
-      <workItem from="1549757657926" duration="31943000" />
+      <workItem from="1549757657926" duration="33305000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_file_analyzer_test_file_analyzer_test_positive_test - 2019.02.10 at 16h 26m 07s.xml">
-      <configuration name="Unittests for test_file_analyzer.test_file_analyzer.test_positive_test" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_file_analyzer_test_file_analyzer_test_positive_test - 2019.02.10 at 16h 26m 18s.xml">
       <configuration name="Unittests for test_file_analyzer.test_file_analyzer.test_positive_test" configurationId="tests" />
     </history-entry>
@@ -531,27 +529,30 @@
     <history-entry file="Unittests_for_TestFileAnalyzer_TestFileAnalyzer - 2019.02.10 at 17h 28m 46s.xml">
       <configuration name="Unittests for TestFileAnalyzer.TestFileAnalyzer" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_testFileAnalyzer_TestFileAnalyzer - 2019.02.10 at 20h 15m 03s.xml">
+      <configuration name="Unittests for test.testFileAnalyzer.TestFileAnalyzer" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31943000" />
+    <option name="totallyTimeSpent" value="33305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="843" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32967034" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42307693" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42307693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +571,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py</url>
+          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py</url>
           <line>13</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -580,17 +581,17 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py</url>
+          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py</url>
           <line>8</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py</url>
+          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py</url>
           <line>9</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py</url>
+          <url>file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py</url>
           <line>6</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -635,13 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/sample-input-file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -721,28 +715,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FileAnalyzer/test/TestFileAnalyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../FileAnalyzer/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/requirement.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/sample-input-file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../FileAnalyzer/src_files/fileAnalyzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FileAnalyzer/test/testFileAnalyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
