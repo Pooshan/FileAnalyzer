@@ -2,7 +2,6 @@ import unittest
 from src_files import fileAnalyzer
 
 
-
 class TestFileAnalyzer(unittest.TestCase):
     def test_positive_case(self):
         result=fileAnalyzer.find_n_most_frequent_word('../src_files/test_few_words.txt',5)

@@ -93,3 +93,9 @@
 2019-02-10 17:38:23 DEBUG Dictionary is ready with word and occurrence
 2019-02-10 17:38:23 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
 2019-02-10 17:38:23 CRITICAL {'you': 8, 'tuples': 8, 'pard': 5, 'the': 5, 'are': 5}
+2019-02-10 17:43:41 INFO Provided arguments accepted
+2019-02-10 17:43:41 DEBUG Accessing and reading entire file
+2019-02-10 17:43:41 DEBUG Each word separation in file completed
+2019-02-10 17:43:41 DEBUG Dictionary is ready with word and occurrence
+2019-02-10 17:43:41 DEBUG Dictionary is sorted and ready to yield number of top most frequent words requested
+2019-02-10 17:43:41 CRITICAL {'you': 8, 'tuples': 8, 'pard': 5, 'the': 5, 'are': 5}
