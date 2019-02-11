@@ -17,6 +17,7 @@ class TestFileAnalyzer(unittest.TestCase):
         result=fileAnalyzer.find_n_most_frequent_word('../src_files/emptyfile.txt',5)
         self.assertEqual(len(result), 0)
 
+
 if __name__ == '__main__':
     unittest.main()
 

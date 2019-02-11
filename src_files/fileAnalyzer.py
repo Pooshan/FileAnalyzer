@@ -2,13 +2,11 @@ import re
 import sys
 import argparse
 import os
+import src_files.logger as log
 
-dir_path=  os.path.dirname(os.path.realpath(__file__)) + "/.."
+dir_path = os.path.dirname(os.path.realpath(__file__)) + "/.."
 if dir_path not in sys.path:
     sys.path.insert(0,dir_path)
-
-
-import src_files.logger as log
 
 logger = log.get_logger()
 
