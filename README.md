@@ -20,3 +20,5 @@ Go to FileAnalyzer directory and then run this command on terminal:
 
 - Example: `python3 -m unittest test.testFileAnalyzer`
 
+
+![Result output screenshot](https://github.com/Pooshan/FileAnalyzer/blob/master/result_screenshots/result_screenshot.png)
